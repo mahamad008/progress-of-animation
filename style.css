@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{height: 100vh;
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.continer{
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    width: 420px;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+}
+.pregres-content{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+}
+.pregres-content::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.text-per{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.qoraal{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
